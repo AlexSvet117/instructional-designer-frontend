@@ -50,15 +50,6 @@ function Portfolio() {
       image: '/images/portfolio-5.jpg',
       tech: ['3D Simulations', 'Compliance Training', 'Certification'],
       client: 'Manufacturing Co.'
-    },
-    {
-      id: 6,
-      title: 'University Course Design',
-      category: 'curriculum',
-      description: 'Complete course redesign for online university program',
-      image: '/images/portfolio-6.jpg',
-      tech: ['Academic Design', 'Video Lectures', 'Peer Assessment'],
-      client: 'State University'
     }
   ];
 
@@ -105,41 +96,145 @@ function Portfolio() {
           </div>
         </div>
 
-        {/* Portfolio Grid */}
-        <div className="row portfolio-grid">
-          {filteredItems.map((item) => (
-            <div key={item.id} className="col-lg-4 col-md-6 mb-4">
-              <div className="portfolio-item">
-                <div className="portfolio-image">
-                  <img src={item.image} alt={item.title} />
-                  <div className="portfolio-overlay">
-                    <div className="portfolio-content">
-                      <h4 className="portfolio-title">{item.title}</h4>
-                      <p className="portfolio-description">{item.description}</p>
-                      <div className="portfolio-tech">
-                        {item.tech.map((tech, index) => (
-                          <span key={index} className="tech-tag">{tech}</span>
-                        ))}
-                      </div>
-                      <div className="portfolio-actions">
-                        <button className="btn-view">
-                          <i className="fas fa-eye"></i>
-                          View Details
-                        </button>
-                        <button className="btn-external">
-                          <i className="fas fa-external-link-alt"></i>
-                        </button>
+        {/* Main Portfolio Grid Layout */}
+        <div className="row portfolio-main-grid">
+          {/* Left Grid - Projects 1, 2, 3 */}
+          <div className="col-lg-8 portfolio-left-grid">
+            {/* Top Row - Projects 1 & 2 */}
+            <div className="row mb-3">
+              {filteredItems.slice(0, 2).map((item) => (
+                <div key={item.id} className="col-6">
+                  <div className="portfolio-item portfolio-small">
+                    <div className="portfolio-image">
+                      <img src={item.image} alt={item.title} />
+                      <div className="portfolio-overlay">
+                        <div className="portfolio-content">
+                          <h4 className="portfolio-title">{item.title}</h4>
+                          <p className="portfolio-client">{item.client}</p>
+                          <p className="portfolio-description">{item.description}</p>
+                          <div className="portfolio-tech">
+                            {item.tech.map((tech, techIndex) => (
+                              <span key={techIndex} className="tech-tag">{tech}</span>
+                            ))}
+                          </div>
+                          <div className="portfolio-actions">
+                            <button className="btn-view">
+                              <i className="fas fa-eye"></i>
+                              View Details
+                            </button>
+                            <button className="btn-external">
+                              <i className="fas fa-external-link-alt"></i>
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="portfolio-info">
-                  <h5 className="info-title">{item.title}</h5>
-                  <p className="info-client">{item.client}</p>
+              ))}
+            </div>
+            
+            {/* Bottom Row - Project 3 (Full Width) */}
+            {filteredItems.length > 2 && (
+              <div className="row">
+                <div className="col-12">
+                  <div className="portfolio-item portfolio-wide">
+                    <div className="portfolio-image">
+                      <img src={filteredItems[2].image} alt={filteredItems[2].title} />
+                      <div className="portfolio-overlay">
+                        <div className="portfolio-content">
+                          <h4 className="portfolio-title">{filteredItems[2].title}</h4>
+                          <p className="portfolio-client">{filteredItems[2].client}</p>
+                          <p className="portfolio-description">{filteredItems[2].description}</p>
+                          <div className="portfolio-tech">
+                            {filteredItems[2].tech.map((tech, techIndex) => (
+                              <span key={techIndex} className="tech-tag">{tech}</span>
+                            ))}
+                          </div>
+                          <div className="portfolio-actions">
+                            <button className="btn-view">
+                              <i className="fas fa-eye"></i>
+                              View Details
+                            </button>
+                            <button className="btn-external">
+                              <i className="fas fa-external-link-alt"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            )}
+          </div>
+
+          {/* Right Grid - Projects 4 & 5 */}
+          <div className="col-lg-4 portfolio-right-grid">
+            {/* Project 4 */}
+            {filteredItems.length > 3 && (
+              <div className="mb-3">
+                <div className="portfolio-item portfolio-tall">
+                  <div className="portfolio-image">
+                    <img src={filteredItems[3].image} alt={filteredItems[3].title} />
+                    <div className="portfolio-overlay">
+                      <div className="portfolio-content">
+                        <h4 className="portfolio-title">{filteredItems[3].title}</h4>
+                        <p className="portfolio-client">{filteredItems[3].client}</p>
+                        <p className="portfolio-description">{filteredItems[3].description}</p>
+                        <div className="portfolio-tech">
+                          {filteredItems[3].tech.map((tech, techIndex) => (
+                            <span key={techIndex} className="tech-tag">{tech}</span>
+                          ))}
+                        </div>
+                        <div className="portfolio-actions">
+                          <button className="btn-view">
+                            <i className="fas fa-eye"></i>
+                            View Details
+                          </button>
+                          <button className="btn-external">
+                            <i className="fas fa-external-link-alt"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+            
+            {/* Project 5 */}
+            {filteredItems.length > 4 && (
+              <div>
+                <div className="portfolio-item portfolio-tall">
+                  <div className="portfolio-image">
+                    <img src={filteredItems[4].image} alt={filteredItems[4].title} />
+                    <div className="portfolio-overlay">
+                      <div className="portfolio-content">
+                        <h4 className="portfolio-title">{filteredItems[4].title}</h4>
+                        <p className="portfolio-client">{filteredItems[4].client}</p>
+                        <p className="portfolio-description">{filteredItems[4].description}</p>
+                        <div className="portfolio-tech">
+                          {filteredItems[4].tech.map((tech, techIndex) => (
+                            <span key={techIndex} className="tech-tag">{tech}</span>
+                          ))}
+                        </div>
+                        <div className="portfolio-actions">
+                          <button className="btn-view">
+                            <i className="fas fa-eye"></i>
+                            View Details
+                          </button>
+                          <button className="btn-external">
+                            <i className="fas fa-external-link-alt"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Portfolio CTA */}
