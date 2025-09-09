@@ -174,25 +174,33 @@ function Contact() {
               </p>
 
               {/* Contact Details */}
-              <div className="contact-details">
-                {contactInfo.map((item, index) => (
-                  <div key={index} className="contact-item">
-                    <div className="contact-icon">
-                      <i className={item.icon}></i>
-                    </div>
-                    <div className="contact-content">
-                      <h5 className="contact-title">{item.title}</h5>
-                      {item.link ? (
-                        <a href={item.link} className="contact-link">
-                          {item.details}
-                        </a>
-                      ) : (
-                        <span className="contact-text">{item.details}</span>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
+<div className="contact-details">
+  {contactInfo.map((item, index) => (
+    <div key={index} className="contact-item">
+      {item.link ? (
+        <a href={item.link} className="contact-icon-link">
+          <div className="contact-icon interactive" data-type={item.title.toLowerCase()}>
+            <i className={item.icon}></i>
+          </div>
+        </a>
+      ) : (
+        <div className="contact-icon interactive" data-type={item.title.toLowerCase()}>
+          <i className={item.icon}></i>
+        </div>
+      )}
+      <div className="contact-content">
+        <h5 className="contact-title">{item.title}</h5>
+        {item.link ? (
+          <a href={item.link} className="contact-link">
+            {item.details}
+          </a>
+        ) : (
+          <span className="contact-text">{item.details}</span>
+        )}
+      </div>
+    </div>
+  ))}
+</div>
 
               {/* Social Media */}
               <div className="social-section">

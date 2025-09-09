@@ -68,7 +68,7 @@
   background: #1a1a1c;
   border: 2px solid #4c5056;
   border-radius: 8px;
-  color: #ffffff;
+  color: #ffffff;  /* Ensure white text */
   font-size: 0.9rem;
   transition: all 0.3s ease;
   resize: vertical;
@@ -78,6 +78,7 @@
   outline: none;
   border-color: #ffffff;
   background: #202627;
+  color: #ffffff;  /* Maintain white text on focus */
 }
 
 .form-control::placeholder {
@@ -326,6 +327,34 @@ textarea.form-control {
   box-shadow: 0 10px 25px rgba(255, 255, 255, 0.15);
 }
 
+.contact-icon-link {
+  text-decoration: none;
+}
+
+.contact-icon.interactive {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-icon.interactive:hover {
+  transform: translateY(-3px);
+}
+
+.contact-icon.interactive[data-type="phone"]:hover {
+  background: #22c55e;
+  border-color: #22c55e;
+}
+
+.contact-icon.interactive[data-type="email"]:hover {
+  background: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.contact-icon.interactive[data-type="location"]:hover {
+  background: #ef4444;
+  border-color: #ef4444;
+}
+
 /* Responsive Design */
 @media (max-width: 991px) {
   .contact-info {
@@ -465,13 +494,21 @@ textarea.form-control {
   }
 }
 
-/* Form validation styles */
-.form-control:invalid {
-  border-color: #ef4444;
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 1000px #1a1a1c inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background-color: #1a1a1c !important;
 }
 
 .form-control:valid {
-  border-color: #22c55e;
+  background: #1a1a1c !important;
+}
+
+/* Form validation styles - only red for invalid */
+.form-control:invalid:not(:placeholder-shown) {
+  border-color: #ef4444;
 }
 
 /* Loading state for form */
