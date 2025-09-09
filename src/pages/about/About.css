@@ -13,7 +13,7 @@
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #f8f9fa;
+  color: #ffffff;
   margin-bottom: 1rem;
   position: relative;
 }
@@ -66,13 +66,13 @@
 /* Content Section */
 .about-content {
   padding: 0 20px;
-  color: #f8f9fa;
+  color: #ffffff;
 }
 
 .about-intro {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #f8f9fa;
+  color: #ffffff;
   margin-bottom: 2.5rem;
 }
 
@@ -84,7 +84,7 @@
 .highlight-item {
   text-align: center;
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: #ffffff;
   border-radius: 10px;
   border-left: 4px solid #4c5056;
   transition: transform 0.3s ease;
@@ -115,7 +115,7 @@
 .skills-title {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #f8f9fa;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -127,7 +127,7 @@
 
 .skill-item {
   background: #4c5056;
-  color: #f8f9fa;
+  color: #ffffff;
   padding: 0.5rem 1rem;
   border-radius: 25px;
   font-size: 0.9rem;
@@ -148,7 +148,7 @@
 .education-title {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #f8f9fa;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -159,7 +159,7 @@
 .education-item {
   padding: 0.8rem 0;
   border-bottom: 1px solid #e8e8e8;
-  color: #f8f9fa;
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -168,7 +168,7 @@
 }
 
 .education-item strong {
-  color: #f8f9fa;
+  color: #ffffff;
 }
 
 /* Approach Section */
@@ -179,18 +179,18 @@
 .approach-title {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #f8f9fa;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
 .approach-text {
   font-size: 1rem;
   line-height: 1.7;
-  color: #f8f9fa;
+  color: #ffffff;
   font-style: italic;
   padding: 1.5rem;
   background: #2c2c2e;
-  border-left: 4px solid #f8f9fa;
+  border-left: 4px solid #ffffff;
   border-radius: 5px;
 }
 

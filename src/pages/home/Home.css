@@ -9,8 +9,8 @@
   /* --hover-color: #5c5c5f; */
   --hover-color: #d6ac53;
   --dark-color: #181a1d;
-  --light-color: #f8f9fa;
-  --text-dark: #e4dbdb;
+  --light-color: #ffffff;
+  --text-dark: #ffffff;
   --text-light: #6c757d;
 }
 
@@ -44,7 +44,7 @@ html {
   font-weight: 600;
   font-size: 1.5rem;
   /* color: white !important; */
-  color: #d6ac53 !important;
+  color: #ffffff !important;
   text-decoration: none;
 }
 
@@ -77,6 +77,9 @@ html {
   position: relative;
   overflow: hidden;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
+  /* clip-path: polygon(0 0, 100% 0, 100% 85%, 75% 95%, 50% 100%, 25% 95%, 0 85%); */
+  /* clip-path: path("M0,0 L1920,0 L1920,800 Q1440,850 960,800 Q480,750 0,800 Z"); */
 }
 
 .hero-background {
