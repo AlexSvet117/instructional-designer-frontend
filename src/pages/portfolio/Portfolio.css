@@ -119,6 +119,7 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  filter: brightness(0.9);
 }
 
 /* Portfolio Overlay */
@@ -147,7 +148,7 @@
 }
 
 .portfolio-item:hover .portfolio-overlay {
-  opacity: 1;
+  opacity: 0.8;
   transform: translateY(0);
 }
 
@@ -594,7 +595,6 @@
 }
 
 .portfolio-image::after {
-  content: '📁';
   position: absolute;
   top: 50%;
   left: 50%;

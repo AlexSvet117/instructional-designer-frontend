@@ -11,7 +11,7 @@ function Portfolio() {
       title: 'Corporate Learning Platform',
       category: 'e-learning',
       description: 'Comprehensive e-learning platform for employee onboarding and skill development',
-      image: '/images/portfolio-1.jpg',
+      image: '/images/Corporate_1.jpg',
       tech: ['Articulate Storyline', 'LMS Integration', 'SCORM'],
       client: 'Tech Solutions Inc.'
     },
@@ -20,7 +20,7 @@ function Portfolio() {
       title: 'Medical Training Simulation',
       category: 'simulation',
       description: 'Interactive medical training modules with virtual patient scenarios',
-      image: '/images/portfolio-2.jpg',
+      image: '/images/Medical_2.jpg',
       tech: ['Virtual Reality', 'Interactive Media', 'Assessment'],
       client: 'Healthcare Academy'
     },
@@ -29,7 +29,7 @@ function Portfolio() {
       title: 'Leadership Development Program',
       category: 'curriculum',
       description: 'Multi-module leadership training curriculum with assessments',
-      image: '/images/portfolio-3.jpg',
+      image: '/images/Leadership_3.jpg',
       tech: ['Curriculum Design', 'Video Production', 'Gamification'],
       client: 'Global Corporation'
     },
@@ -38,7 +38,7 @@ function Portfolio() {
       title: 'Mobile Learning App',
       category: 'e-learning',
       description: 'Mobile-first learning application for professional development',
-      image: '/images/portfolio-4.jpg',
+      image: '/images/MobileLearningApp_4.jpg',
       tech: ['Mobile Design', 'Microlearning', 'Push Notifications'],
       client: 'Startup Accelerator'
     },
@@ -47,7 +47,7 @@ function Portfolio() {
       title: 'Safety Training Modules',
       category: 'simulation',
       description: 'Industrial safety training with immersive scenarios',
-      image: '/images/portfolio-5.jpg',
+      image: '/images/Safety_training_5.jpg',
       tech: ['3D Simulations', 'Compliance Training', 'Certification'],
       client: 'Manufacturing Co.'
     }
