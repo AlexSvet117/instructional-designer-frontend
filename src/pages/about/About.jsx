@@ -29,38 +29,30 @@ function About() {
               </div>
 
               <p className="about-intro">
-                I'm a passionate instructional designer with over 10 years of experience 
-                transforming complex concepts into engaging, accessible learning experiences. 
-                My mission is to bridge the gap between knowledge and understanding through 
-                innovative educational solutions.
+                I’m a Learning Architect with a passion for designing transformative learning experiences 
+                that blend science, creativity, and strategy. With over a decade of experience in instructional 
+                design, curriculum development, and digital learning innovation, I specialize in building scalable, 
+                human-centered solutions that drive performance and engagement across industries.
               </p>
-
-              {/* <div className="about-highlights">
-                <div className="row">
-                  <div className="col-sm-6 mb-3">
-                    <div className="highlight-item">
-                      <div className="highlight-number">150+</div>
-                      <div className="highlight-text">Projects Completed</div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 mb-3">
-                    <div className="highlight-item">
-                      <div className="highlight-number">50+</div>
-                      <div className="highlight-text">Organizations Served</div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
 
               <div className="about-skills">
                 <h4 className="skills-title">Core Expertise</h4>
                 <div className="skills-list">
-                  <span className="skill-item">Curriculum Development</span>
+                  {/* <span className="skill-item">Curriculum Development</span>
                   <span className="skill-item">E-Learning Design</span>
                   <span className="skill-item">Learning Management Systems</span>
                   <span className="skill-item">Assessment Design</span>
                   <span className="skill-item">Educational Technology</span>
-                  <span className="skill-item">Training Program Development</span>
+                  <span className="skill-item">Training Program Development</span> */}
+                  <span className="skill-item">Curriculum & Multimedia Development</span>
+                  <span className="skill-item">Learning Experience Design (LXD)</span>
+                  <span className="skill-item">Gamification & Simulation Design</span>
+                  <span className="skill-item">Microlearning & vILTs</span>
+                  <span className="skill-item">Performance Support (Job Aids, Toolkits)</span>
+                  <span className="skill-item">UX Research & Journey Mapping</span>
+                  <span className="skill-item">Agile Learning Development</span>
+                  <span className="skill-item">LMS & SCORM Integration</span>
+                  <span className="skill-item">Accessibility (Section 508 Compliance)</span>
                 </div>
               </div>
 
@@ -68,13 +60,10 @@ function About() {
                 <h4 className="education-title">Education & Certifications</h4>
                 <div className="education-list">
                   <div className="education-item">
-                    <strong>M.Ed. in Instructional Design</strong> - University of Education
+                    Certified in Agile Instructional Design, Neuroscience for L&D, and Interactive Learning with Articulate 360
                   </div>
                   <div className="education-item">
-                    <strong>Certified Professional in Learning and Performance (CPLP)</strong> - ATD
-                  </div>
-                  <div className="education-item">
-                    <strong>Google for Education Certified Trainer</strong>
+                    Multiple Certificates of Appreciation from the U.S. Department of State for excellence in teaching and instructional design
                   </div>
                 </div>
               </div>
@@ -82,9 +71,10 @@ function About() {
               <div className="about-approach">
                 <h4 className="approach-title">My Approach</h4>
                 <p className="approach-text">
-                  I believe that effective learning happens when content is not just informative, 
-                  but transformative. My design philosophy centers on learner-centered experiences 
-                  that promote engagement, retention, and real-world application.
+                  <strong>Grounded in science: </strong> I apply adult learning theory, cognitive psychology, behavioral science, and neuroscience to ensure learning sticks and drives behavior <br />
+<strong>Digitally immersive: </strong> From gamified modules and simulations to microlearning and virtual instructor-led trainings (vILTs), I design for impact and accessibility.<br />
+<strong>Strategically aligned: </strong> I partner with business leaders, SMEs, and cross-functional teams to ensure every learning initiative supports organizational goals.<br />
+<strong>Iterative and agile: </strong> Using Agile/Scrum methodologies, I prototype, test, and refine learning products based on real-time feedback and data.<br />
                 </p>
               </div>
             </div>

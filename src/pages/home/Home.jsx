@@ -107,7 +107,7 @@ function Home() {
                   Creating Meaningful Learning Experiences
                 </h1>
                 <p className="hero-subtitle">
-                  Instructional Designer & Learning Experience Specialist
+                  Learning Architect & Experience Designer
                 </p>
                 <p className="hero-description">
                   Transforming complex concepts into engaging, accessible learning journeys. 

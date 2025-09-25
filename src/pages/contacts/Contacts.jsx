@@ -31,22 +31,22 @@ function Contact() {
   };
 
   const contactInfo = [
-    {
-      icon: 'fas fa-phone',
-      title: 'Phone',
-      details: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
-    },
-    {
-      icon: 'fas fa-envelope',
-      title: 'Email',
-      details: 'sarah.johnson@email.com',
-      link: 'mailto:sarah.johnson@email.com'
-    },
+    // {
+    //   icon: 'fas fa-phone',
+    //   title: 'Phone',
+    //   details: '+1 (555) 123-4567',
+    //   link: 'tel:+15551234567'
+    // },
+    // {
+    //   icon: 'fas fa-envelope',
+    //   title: 'Email',
+    //   details: 'sarah.johnson@email.com',
+    //   link: 'mailto:sarah.johnson@email.com'
+    // },
     {
       icon: 'fas fa-map-marker-alt',
       title: 'Location',
-      details: 'San Francisco, CA',
+      details: 'Washington, DC',
       link: null
     }
   ];
@@ -55,25 +55,25 @@ function Contact() {
     {
       icon: 'fab fa-linkedin-in',
       platform: 'LinkedIn',
-      url: 'https://linkedin.com/in/sarah-johnson-id',
+      url: 'https://www.linkedin.com/in/yanasvet/',
       color: '#0077b5'
     },
-    {
-      icon: 'fab fa-instagram',
-      platform: 'Instagram',
-      url: 'https://instagram.com/sarah_instructional_design',
-      color: '#e4405f'
-    },
-    {
-      icon: 'fab fa-twitter',
-      platform: 'Twitter',
-      url: 'https://twitter.com/sarah_learns',
-      color: '#1da1f2'
-    },
+    // {
+    //   icon: 'fab fa-instagram',
+    //   platform: 'Instagram',
+    //   url: 'https://instagram.com/sarah_instructional_design',
+    //   color: '#e4405f'
+    // },
+    // {
+    //   icon: 'fab fa-twitter',
+    //   platform: 'Twitter',
+    //   url: 'https://twitter.com/sarah_learns',
+    //   color: '#1da1f2'
+    // },
     {
       icon: 'fas fa-globe',
       platform: 'Website',
-      url: 'https://sarahjohnson-id.com',
+      url: 'https://www.ianasvet.com',
       color: '#ffffff'
     }
   ];
@@ -238,7 +238,7 @@ function Contact() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12">
             <div className="contact-cta text-center">
               <h3 className="cta-title">Ready to start your project?</h3>
@@ -251,7 +251,7 @@ function Contact() {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

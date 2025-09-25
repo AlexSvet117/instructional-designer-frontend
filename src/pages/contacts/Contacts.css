@@ -119,6 +119,7 @@ textarea.form-control {
 /* Contact Info */
 .contact-info {
   padding-left: 2rem;
+  padding-top: 3rem;
 }
 
 .info-title {
@@ -129,6 +130,7 @@ textarea.form-control {
 }
 
 .info-description {
+  padding-top: 2rem;
   font-size: 1rem;
   color: #e8e8e8;
   line-height: 1.6;
@@ -138,6 +140,7 @@ textarea.form-control {
 /* Contact Details */
 .contact-details {
   margin-bottom: 2.5rem;
+  padding-top: 2rem;
 }
 
 .contact-item {
@@ -237,7 +240,7 @@ textarea.form-control {
 /* Availability */
 .availability-section {
   /* background: #202627; */
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
   border-radius: 10px;
   /* border: 1px solid #4c5056; */
 }
