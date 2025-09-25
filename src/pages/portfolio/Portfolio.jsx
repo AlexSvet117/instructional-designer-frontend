@@ -10,46 +10,51 @@ function Portfolio() {
       id: 1,
       title: 'Corporate Learning Platform',
       category: 'e-learning',
-      description: 'Comprehensive e-learning platform for employee onboarding and skill development',
-      image: '/images/Corporate_1.jpg',
+      description: 'A gamified innovative solution for a lengthier course to help learners reset their cognitive capacity. This approach combines a behavioral framework + gamification.',
+      image: '/images/Project 1.png',
       tech: ['Articulate Storyline', 'LMS Integration', 'SCORM'],
-      client: 'Tech Solutions Inc.'
+      client: 'Tech Solutions Inc.',
+      projectUrl:'https://360.articulate.com/review/content/6e850652-161d-4a29-8e87-1fc86c203768/review?version=6'
     },
     {
       id: 2,
       title: 'Medical Training Simulation',
       category: 'simulation',
-      description: 'Interactive medical training modules with virtual patient scenarios',
-      image: '/images/Medical_2.jpg',
+      description: 'To upskill the team on the performance-focused training vs knowledge-based one',
+      image: '/images/Project 2.png',
       tech: ['Virtual Reality', 'Interactive Media', 'Assessment'],
-      client: 'Healthcare Academy'
+      client: 'Healthcare Academy',
+      projectUrl:'/public/images/Project 2_pdf.pdf'
     },
     {
       id: 3,
       title: 'Leadership Development Program',
       category: 'curriculum',
-      description: 'Multi-module leadership training curriculum with assessments',
-      image: '/images/Leadership_3.jpg',
+      description: 'A microlearning on Overcoming Sales Objections – combines gamification and performance-focused methodology',
+      image: '/images/Project 3.png',
       tech: ['Curriculum Design', 'Video Production', 'Gamification'],
-      client: 'Global Corporation'
+      client: 'Global Corporation',
+      projectUrl:'https://360.articulate.com/review/content/e7a8b87c-0b83-4fc6-a367-958a94a4ca40/review?version=1'
     },
     {
       id: 4,
       title: 'Mobile Learning App',
       category: 'e-learning',
-      description: 'Mobile-first learning application for professional development',
-      image: '/images/MobileLearningApp_4.jpg',
+      description: 'Gamified microlearning on Buyer’ Motivation. Applied gamified framework called Socratic String – a framework that boosts learner confidence through answering questions with a low possibility of failure.  Learners have 0 to little knowledge of the concepts',
+      image: '/images/Project 4.png',
       tech: ['Mobile Design', 'Microlearning', 'Push Notifications'],
-      client: 'Startup Accelerator'
+      client: 'Startup Accelerator',
+      projectUrl:'https://360.articulate.com/review/content/ffe59ce7-4371-4105-99a2-edc31a829779/review'
     },
     {
       id: 5,
       title: 'Safety Training Modules',
       category: 'simulation',
       description: 'Industrial safety training with immersive scenarios',
-      image: '/images/Safety_training_5.jpg',
+      image: '/images/Project 5.png',
       tech: ['3D Simulations', 'Compliance Training', 'Certification'],
-      client: 'Manufacturing Co.'
+      client: 'Manufacturing Co.',
+      projectUrl:'https://360.articulate.com/review/content/b4ff2536-0e74-460c-9cfe-9ebb2d5eb4f7/review'
     }
   ];
 
@@ -116,16 +121,16 @@ function Portfolio() {
                             {item.tech.map((tech, techIndex) => (
                               <span key={techIndex} className="tech-tag">{tech}</span>
                             ))}
-                          </div>
+                        </div>
                           <div className="portfolio-actions">
-                            <button className="btn-view">
-                              <i className="fas fa-eye"></i>
-                              View Details
-                            </button>
-                            <button className="btn-external">
-                              <i className="fas fa-external-link-alt"></i>
-                            </button>
-                          </div>
+  <button 
+    className="btn-view"
+    onClick={() => window.open(item.projectUrl, '_blank')}
+  >
+    <i className="fas fa-external-link-alt"></i>
+    View Project
+  </button>
+</div>
                         </div>
                       </div>
                     </div>
@@ -151,15 +156,15 @@ function Portfolio() {
                               <span key={techIndex} className="tech-tag">{tech}</span>
                             ))}
                           </div>
-                          <div className="portfolio-actions">
-                            <button className="btn-view">
-                              <i className="fas fa-eye"></i>
-                              View Details
-                            </button>
-                            <button className="btn-external">
-                              <i className="fas fa-external-link-alt"></i>
-                            </button>
-                          </div>
+                         <div className="portfolio-actions">
+  <button 
+    className="btn-view"
+    onClick={() => window.open(filteredItems[2].projectUrl, '_blank')}
+  >
+    <i className="fas fa-external-link-alt"></i>
+    View Project
+  </button>
+</div>
                         </div>
                       </div>
                     </div>
@@ -188,14 +193,14 @@ function Portfolio() {
                           ))}
                         </div>
                         <div className="portfolio-actions">
-                          <button className="btn-view">
-                            <i className="fas fa-eye"></i>
-                            View Details
-                          </button>
-                          <button className="btn-external">
-                            <i className="fas fa-external-link-alt"></i>
-                          </button>
-                        </div>
+  <button 
+    className="btn-view"
+    onClick={() => window.open(filteredItems[3].projectUrl, '_blank')}
+  >
+    <i className="fas fa-external-link-alt"></i>
+    View Project
+  </button>
+</div>
                       </div>
                     </div>
                   </div>
@@ -220,14 +225,14 @@ function Portfolio() {
                           ))}
                         </div>
                         <div className="portfolio-actions">
-                          <button className="btn-view">
-                            <i className="fas fa-eye"></i>
-                            View Details
-                          </button>
-                          <button className="btn-external">
-                            <i className="fas fa-external-link-alt"></i>
-                          </button>
-                        </div>
+  <button 
+    className="btn-view"
+    onClick={() => window.open(filteredItems[4].projectUrl, '_blank')}
+  >
+    <i className="fas fa-external-link-alt"></i>
+    View Project
+  </button>
+</div>
                       </div>
                     </div>
                   </div>

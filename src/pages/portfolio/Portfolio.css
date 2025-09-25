@@ -254,7 +254,7 @@
   background: #ffffff;
   color: #1a1a1c;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem; /* Slightly more padding for longer text */
   border-radius: 20px;
   font-size: 0.75rem;
   font-weight: 600;
