@@ -70,12 +70,12 @@ function About() {
 
               <div className="about-approach">
                 <h4 className="approach-title">My Approach</h4>
-                <p className="approach-text">
-                  <strong>Grounded in science: </strong> I apply adult learning theory, cognitive psychology, behavioral science, and neuroscience to ensure learning sticks and drives behavior <br />
-<strong>Digitally immersive: </strong> From gamified modules and simulations to microlearning and virtual instructor-led trainings (vILTs), I design for impact and accessibility.<br />
-<strong>Strategically aligned: </strong> I partner with business leaders, SMEs, and cross-functional teams to ensure every learning initiative supports organizational goals.<br />
-<strong>Iterative and agile: </strong> Using Agile/Scrum methodologies, I prototype, test, and refine learning products based on real-time feedback and data.<br />
-                </p>
+                <div className="approach-text">
+  <p><strong>Grounded in science: </strong> I apply adult learning theory, cognitive psychology, behavioral science, and neuroscience to ensure learning sticks and drives behavior.</p>
+  <p><strong>Digitally immersive: </strong> From gamified modules and simulations to microlearning and virtual instructor-led trainings (vILTs), I design for impact and accessibility.</p>
+  <p><strong>Strategically aligned: </strong> I partner with business leaders, SMEs, and cross-functional teams to ensure every learning initiative supports organizational goals.</p>
+  <p><strong>Iterative and agile: </strong> Using Agile/Scrum methodologies, I prototype, test, and refine learning products based on real-time feedback and data.</p>
+</div>
               </div>
             </div>
           </div>

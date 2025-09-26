@@ -8,61 +8,61 @@ function Portfolio() {
   const portfolioItems = [
     {
       id: 1,
-      title: 'Corporate Learning Platform',
+      title: 'Boosting Engagement Activity',
       category: 'e-learning',
       description: 'A gamified innovative solution for a lengthier course to help learners reset their cognitive capacity. This approach combines a behavioral framework + gamification.',
       image: '/images/Project 1.png',
-      tech: ['Articulate Storyline', 'LMS Integration', 'SCORM'],
-      client: 'Tech Solutions Inc.',
+      tech: ['Articulate Storyline'],
+      client: 'Global Corporation',
       projectUrl:'https://360.articulate.com/review/content/6e850652-161d-4a29-8e87-1fc86c203768/review?version=6'
     },
     {
       id: 2,
-      title: 'Medical Training Simulation',
-      category: 'simulation',
-      description: 'To upskill the team on the performance-focused training vs knowledge-based one',
+      title: 'Seven Rules of the Performance-Focused Learning',
+      category: 'infographic',
+      description: 'Upskilling the team on the performance-focused training vs knowledge-based one',
       image: '/images/Project 2.png',
-      tech: ['Virtual Reality', 'Interactive Media', 'Assessment'],
-      client: 'Healthcare Academy',
+      tech: ['Canva'],
+      client: 'Global Corporation',
       projectUrl:'/public/images/Project 2_pdf.pdf'
     },
     {
       id: 3,
-      title: 'Leadership Development Program',
-      category: 'curriculum',
-      description: 'A microlearning on Overcoming Sales Objections – combines gamification and performance-focused methodology',
-      image: '/images/Project 3.png',
-      tech: ['Curriculum Design', 'Video Production', 'Gamification'],
+      title: "What's the Buyer Motivation",
+      category: 'e-learning',
+      description: 'Gamified microlearning on Buyer’ Motivation. Applied gamified framework called Socratic String – a framework that boosts learner confidence through answering questions with a low possibility of failure. Learners have 0 to little knowledge of the concepts',
+      image: '/images/Project 5.png',
+      tech: ['Articulate Storyline'],
       client: 'Global Corporation',
-      projectUrl:'https://360.articulate.com/review/content/e7a8b87c-0b83-4fc6-a367-958a94a4ca40/review?version=1'
+      projectUrl:'https://360.articulate.com/review/content/b4ff2536-0e74-460c-9cfe-9ebb2d5eb4f7/review'
     },
     {
       id: 4,
-      title: 'Mobile Learning App',
-      category: 'e-learning',
-      description: 'Gamified microlearning on Buyer’ Motivation. Applied gamified framework called Socratic String – a framework that boosts learner confidence through answering questions with a low possibility of failure.  Learners have 0 to little knowledge of the concepts',
+      title: 'Activating Customer Video and Internet Equipment',
+      category: 'tool simulation',
+      description: 'Tool simulation based on a customer scenario',
       image: '/images/Project 4.png',
-      tech: ['Mobile Design', 'Microlearning', 'Push Notifications'],
-      client: 'Startup Accelerator',
-      projectUrl:'https://360.articulate.com/review/content/ffe59ce7-4371-4105-99a2-edc31a829779/review'
+      tech: ['Articulate Storyline'],
+      client: 'Global Corporation',
+      projectUrl:''
     },
     {
       id: 5,
-      title: 'Safety Training Modules',
-      category: 'simulation',
-      description: 'Industrial safety training with immersive scenarios',
-      image: '/images/Project 5.png',
-      tech: ['3D Simulations', 'Compliance Training', 'Certification'],
-      client: 'Manufacturing Co.',
-      projectUrl:'https://360.articulate.com/review/content/b4ff2536-0e74-460c-9cfe-9ebb2d5eb4f7/review'
+      title: 'Overcoming Sales Objections Effectively',
+      category: 'e-learning',
+      description: 'A microlearning on Overcoming Sales Objections – combines gamification and performance-focused methodology. ',
+      image: '/images/Project 3.png',
+      tech: ['Articulate Storyline'],
+      client: 'Global Corporation',
+      projectUrl:'https://360.articulate.com/review/content/e7a8b87c-0b83-4fc6-a367-958a94a4ca40/review?version=1'
     }
   ];
 
   const filterCategories = [
     { id: 'all', label: 'All Projects' },
     { id: 'e-learning', label: 'E-Learning' },
-    { id: 'simulation', label: 'Simulations' },
-    { id: 'curriculum', label: 'Curriculum' }
+    { id: 'tool simulation', label: 'Tool Simulations' },
+    { id: 'infographic', label: 'Infographic' }
   ];
 
   const filteredItems = activeFilter === 'all' 

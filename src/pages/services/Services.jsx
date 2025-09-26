@@ -6,15 +6,15 @@ function Services() {
   const services = [
     {
       id: 1,
-      icon: 'fas fa-book-open',
-      title: 'Curriculum Development',
-      description: 'Custom learning pathways designed to meet specific educational objectives and learner needs, incorporating best practices in instructional design and pedagogy.'
+      icon: 'fas fa-users',
+      title: 'Training Program Development',
+      description: 'End-to-end corporate training solutions that align with business objectives and drive employee performance through targeted skill development.'
     },
     {
       id: 2,
       icon: 'fas fa-laptop-code',
       title: 'E-Learning Design',
-      description: 'Interactive digital courses and multimedia learning experiences that engage learners through innovative technology and evidence-based design principles.'
+      description: 'Interactive digital courses and multimedia learning experiences that engage learners through innovative ideas, gamification, and evidence-based principles.'
     },
     {
       id: 3,
@@ -24,9 +24,9 @@ function Services() {
     },
     {
       id: 4,
-      icon: 'fas fa-users',
-      title: 'Training Program Development',
-      description: 'End-to-end corporate training solutions that align with business objectives and drive employee performance through targeted skill development.'
+      icon: 'fas fa-book-open',
+      title: 'Curriculum Development',
+      description: 'Custom learning pathways designed to meet specific educational objectives and learner needs, incorporating best practices in instructional design and pedagogy.'
     },
     {
       id: 5,

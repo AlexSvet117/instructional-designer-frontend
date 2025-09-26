@@ -104,15 +104,16 @@ function Home() {
             <div className="col-lg-8">
               <div className="hero-content">
                 <h1 className="hero-title">
-                  Creating Meaningful Learning Experiences
+                  {/* Creating Meaningful Learning Experiences */}
+                  Where Instructional Design Meets Human Experience
                 </h1>
                 <p className="hero-subtitle">
                   Learning Architect & Experience Designer
                 </p>
                 <p className="hero-description">
-                  Transforming complex concepts into engaging, accessible learning journeys. 
-                  With over 10 years of experience in educational technology and curriculum design, 
-                  I help organizations build impactful training programs that drive real results.
+                  Whether you're launching a new product, transforming onboarding, 
+                  or reimagining professional development — I bring the strategy, creativity, 
+                  and execution to make learning impactful.
                 </p>
                 <button 
                   className="btn-custom"

@@ -70,12 +70,12 @@ function Contact() {
     //   url: 'https://twitter.com/sarah_learns',
     //   color: '#1da1f2'
     // },
-    {
-      icon: 'fas fa-globe',
-      platform: 'Website',
-      url: 'https://www.ianasvet.com',
-      color: '#ffffff'
-    }
+    // {
+    //   icon: 'fas fa-globe',
+    //   platform: 'Website',
+    //   url: 'https://www.ianasvet.com',
+    //   color: '#ffffff'
+    // }
   ];
 
   return (
