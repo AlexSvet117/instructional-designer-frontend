@@ -24,7 +24,7 @@ function Portfolio() {
       image: '/images/Project 2.png',
       tech: ['Canva'],
       client: 'Global Corporation',
-      projectUrl:'/public/images/Project 2_pdf.pdf'
+      projectUrl:'/images/Project 2_pdf.pdf'
     },
     {
       id: 3,
